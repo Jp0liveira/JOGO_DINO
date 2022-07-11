@@ -127,7 +127,7 @@ class Dinossauro:
     def pula(self):
         self.image = self.pula_img
         if (self.dino_pula):
-            self.dino_retan.y -= self.pulo_velo * 4
+            self.dino_retan.y -= self.pulo_velo * 5
             self.pulo_velo -= 0.8
 
         if (self.pulo_velo < -self.velo_pulo):
@@ -184,7 +184,7 @@ class Passaro(Obstaculo):
     def __init__(self, image):
         self.type = 0
         super().__init__(image, self.type)
-        self.rect.y = 250
+        self.rect.y =  random.randint(100, 250)
         self.index = 0
     
     def draw(self, tela):
