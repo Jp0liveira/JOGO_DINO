@@ -14,34 +14,34 @@ diretorio_principal = os.path.dirname(__file__)
 diretorio_sons =  os.path.join(diretorio_principal, 'sons')
 
 #imagens
-CORRE = [pygame.image.load(os.path.join("imagens/dino", "DinoRun1.png")),
-        pygame.image.load(os.path.join("imagens/dino", "DinoRun2.png")),]
+CORRE = [pygame.image.load(os.path.join("JOGODINO-GAME/imagens/dino", "DinoRun1.png")),
+        pygame.image.load(os.path.join("JOGODINO-GAME/imagens/dino", "DinoRun2.png")),]
 
-DINO_START = [pygame.image.load(os.path.join("imagens/dino", "DinoStart.png"))]
-DINO_MORTO = [pygame.image.load(os.path.join("imagens/dino", "DinoDead.png"))]
+DINO_START = [pygame.image.load(os.path.join("JOGODINO-GAME/imagens/dino", "DinoStart.png"))]
+DINO_MORTO = [pygame.image.load(os.path.join("JOGODINO-GAME/imagens/dino", "DinoDead.png"))]
 
-'''CORRE = [pygame.image.load(os.path.join("imagens/modazul", "dino.png"))]'''
+'''CORRE = [pygame.image.load(os.path.join("JOGODINO-GAME/imagens/modazul", "dino.png"))]'''
 
-PULA = pygame.image.load(os.path.join("imagens/dino", "DinoJump.png"))
+PULA = pygame.image.load(os.path.join("JOGODINO-GAME/imagens/dino", "DinoJump.png"))
 
-ABAIXA = [pygame.image.load(os.path.join("imagens/dino", "DinoDuck1.png")),
-         pygame.image.load(os.path.join("imagens/dino", "DinoDuck2.png"))]
+ABAIXA = [pygame.image.load(os.path.join("JOGODINO-GAME/imagens/dino", "DinoDuck1.png")),
+         pygame.image.load(os.path.join("JOGODINO-GAME/imagens/dino", "DinoDuck2.png"))]
 
-CACTU_PEQUENO = [pygame.image.load(os.path.join("imagens/cactus", "SmallCactus1.png")),
-                pygame.image.load(os.path.join("imagens/cactus", "SmallCactus2.png")),
-                pygame.image.load(os.path.join("imagens/cactus", "SmallCactus3.png"))]
+CACTU_PEQUENO = [pygame.image.load(os.path.join("JOGODINO-GAME/imagens/cactus", "SmallCactus1.png")),
+                pygame.image.load(os.path.join("JOGODINO-GAME/imagens/cactus", "SmallCactus2.png")),
+                pygame.image.load(os.path.join("JOGODINO-GAME/imagens/cactus", "SmallCactus3.png"))]
 
-CACTU_GRANDE = [pygame.image.load(os.path.join("imagens/cactus", "LargeCactus1.png")),
-               pygame.image.load(os.path.join("imagens/cactus", "LargeCactus2.png")),
-               pygame.image.load(os.path.join("imagens/cactus", "LargeCactus3.png"))]
+CACTU_GRANDE = [pygame.image.load(os.path.join("JOGODINO-GAME/imagens/cactus", "LargeCactus1.png")),
+               pygame.image.load(os.path.join("JOGODINO-GAME/imagens/cactus", "LargeCactus2.png")),
+               pygame.image.load(os.path.join("JOGODINO-GAME/imagens/cactus", "LargeCactus3.png"))]
 
-PASSARO = [pygame.image.load(os.path.join("imagens/passaro", "Bird1.png")),
-          pygame.image.load(os.path.join("imagens/passaro", "Bird2.png"))]
+PASSARO = [pygame.image.load(os.path.join("JOGODINO-GAME/imagens/passaro", "Bird1.png")),
+          pygame.image.load(os.path.join("JOGODINO-GAME/imagens/passaro", "Bird2.png"))]
 
-NUVENS = pygame.image.load(os.path.join("imagens/outros", "Cloud.png"))
-FUNDO = pygame.image.load(os.path.join("imagens/outros", "Track.png"))
-GAME_OVER = pygame.image.load(os.path.join("imagens/outros", "gameover02.png"))
-GAME_RESET = pygame.image.load(os.path.join("imagens/outros", "Reset.png"))
+NUVENS = pygame.image.load(os.path.join("JOGODINO-GAME/imagens/outros", "Cloud.png"))
+FUNDO = pygame.image.load(os.path.join("JOGODINO-GAME/imagens/outros", "Track.png"))
+GAME_OVER = pygame.image.load(os.path.join("JOGODINO-GAME/imagens/outros", "gameover02.png"))
+GAME_RESET = pygame.image.load(os.path.join("JOGODINO-GAME/imagens/outros", "Reset.png"))
 
 #sons
 som_colisao = pygame.mixer.Sound(os.path.join(diretorio_sons, 'death_sound.wav'))
